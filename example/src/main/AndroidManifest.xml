@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pro.dbro.airshare.sample" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pro.dbro.airshare">
 
     <application
-        android:name=".AirShareSampleApp"
+        android:name="pro.dbro.airshare.sample.AirShareSampleApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,8 +12,9 @@
         <service android:name="pro.dbro.airshare.app.AirShareService" />
 
         <activity
-            android:name=".ui.activity.MainActivity"
-            android:screenOrientation="portrait" >
+            android:name="pro.dbro.airshare.sample.ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activity.AdvancedUseActivity"
+            android:name="pro.dbro.airshare.sample.ui.activity.AdvancedUseActivity"
             android:label="@string/title_activity_advanced_use" >
         </activity>
     </application>

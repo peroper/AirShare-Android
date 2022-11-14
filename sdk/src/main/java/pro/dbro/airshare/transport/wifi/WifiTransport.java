@@ -13,8 +13,8 @@ import android.net.wifi.p2p.WifiP2pInfo;
 import android.net.wifi.p2p.WifiP2pManager;
 import android.os.CountDownTimer;
 import android.os.Looper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;

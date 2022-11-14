@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="pro.dbro.airshare">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Add the following permissions to your app if you use WifiTransport
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -11,6 +11,7 @@
     <!-- BLETransport -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
     <uses-feature android:name="android.hardware.bluetooth_le"  android:required="true" />
 

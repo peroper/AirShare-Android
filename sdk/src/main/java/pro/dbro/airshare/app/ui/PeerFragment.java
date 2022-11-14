@@ -3,21 +3,22 @@ package pro.dbro.airshare.app.ui;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import pro.dbro.airshare.R;
 import pro.dbro.airshare.app.AirShareService;
 import pro.dbro.airshare.app.adapter.PeerAdapter;
 import pro.dbro.airshare.session.Peer;
 import pro.dbro.airshare.transport.Transport;
+import pro.dbro.airshare.R;
 
 /**
  * A Fragment that supports discovering peers and sending or receiving data to/from them.

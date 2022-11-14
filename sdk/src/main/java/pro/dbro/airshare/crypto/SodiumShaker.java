@@ -1,6 +1,6 @@
 package pro.dbro.airshare.crypto;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.abstractj.kalium.NaCl;
 import org.abstractj.kalium.Sodium;

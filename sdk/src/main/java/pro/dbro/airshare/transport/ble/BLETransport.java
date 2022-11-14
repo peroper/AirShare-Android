@@ -4,7 +4,7 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -93,7 +93,7 @@ public class BLETransport extends Transport implements BLETransportCallback {
     }
 
     private UUID generateUUIDFromString(String input) {
-        String hexString = new String(Hex.encodeHex(DigestUtils.sha256(input)));
+        String hexString = new String(Hex.encodeHex(DigestUtils.sha256(input))).toUpperCase();
         StringBuilder uuid = new StringBuilder();
         // UUID has 32 hex 'digits'
         uuid.insert(0, hexString.substring(0, 32));

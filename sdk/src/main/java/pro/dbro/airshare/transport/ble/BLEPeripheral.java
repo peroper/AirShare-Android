@@ -18,7 +18,7 @@ import android.bluetooth.le.BluetoothLeAdvertiser;
 import android.content.Context;
 import android.os.Build;
 import android.os.ParcelUuid;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;

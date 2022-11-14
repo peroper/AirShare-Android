@@ -1,6 +1,6 @@
 package pro.dbro.airshare.session;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Pair;
 
 import java.util.ArrayDeque;

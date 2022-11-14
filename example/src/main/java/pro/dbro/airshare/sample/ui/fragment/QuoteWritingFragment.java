@@ -3,11 +3,12 @@ package pro.dbro.airshare.sample.ui.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+
+import androidx.fragment.app.Fragment;
 
 import pro.dbro.airshare.sample.R;
 
